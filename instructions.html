@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How to Play - Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 30px;
+      margin-top: 50px;
+      background-color: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .btn-home {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #00ffcc;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn-home:hover {
+      background-color: #00ddaa;
+    }
+    
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  color: #f0f0f0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  color: #00ffaa;
+}
+
+ul {
+  color: #ccc;
+}
+
+li strong {
+  color: #00ffcc;
+}
+
+.btn-home {
+  background-color: #00ffaa;
+  color: #000;
+}
+
+.btn-home:hover {
+  background-color: #00ddaa;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 How to Play Tic Tac Toe</h1>
+    <ul>
+      <li>Enter both player names and click <strong>Start Game</strong>.</li>
+      <li>Players take turns marking empty cells with <strong>X</strong> or <strong>O</strong>.</li>
+      <li>You have <strong>10 seconds</strong> to make a move. If time runs out, your turn is passed!</li>
+      <li>The first player to align <strong>three marks</strong> in a row, column, or diagonal wins.</li>
+      <li>If all cells are filled and no one wins, the game ends in a draw.</li>
+      <li>Click <strong>Reset</strong> to play again with the same players.</li>
+    </ul>
+    <a href="index.html" class="btn-home">⬅ Back to Game</a>
+  </div>
+</body>
+</html>
